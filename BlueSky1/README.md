@@ -40,7 +40,7 @@ Now for the first time go download the `OVA` from VulnHub and import it to your 
 ### Initial startup
 At the very first startup I have met with this image.
 
-<img href="https://github.com/norbert-dev/VulnHUB/blob/main/BlueSky1/images/01.png" src=""></img>
+<img src="https://github.com/norbert-dev/VulnHUB/blob/main/BlueSky1/images/01.png">
 
 This is basically the fresh boot up of the image made by the author.
 
