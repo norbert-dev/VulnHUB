@@ -1,6 +1,6 @@
 # VulnHUB
 
-1. Machine - BlueSky 1
+<strong>1. Machine - BlueSky 1 </strong>
 
   Difficulty:: Easy<br>
   OS: Ubuntu<br>
