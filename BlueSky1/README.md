@@ -1,4 +1,11 @@
-<img src="https://github.com/norbert-dev/VulnHUB/blob/main/BlueSky1/images/vhlogo.png">
+<img src="https://github.com/norbert-dev/VulnHUB/blob/main/BlueSky1/images/vhlogo.png" height="300px" width="300px">
+<br>
+<hr>
+
+<h1> Vulhub solutions by Norbert-dev </h1>
+
+<hr>
+
 ## Table of contents
 - [General info >>](#general-info)
 - [Technologies used >>](#technologies-used)
