@@ -1,8 +1,8 @@
 
 ## Table of contents
-- [General info >>](#general-info->>)
-- [Technologies used >>](#technologies-used->>)
-- [Walkthru >>](#walkthru->>)
+- [General info >>](#general-info)
+- [Technologies used >>](#technologies-used)
+- [Walkthru >>](#walkthru)
   * [Initial startup](#initial-startup)
     + [General login attempt](#general-login-attempt)
     + [Move on then!](#move-on-then!)
@@ -10,12 +10,12 @@
     + [Lets see the HOW first?](#lets-see-the-how-first?) 
     + [Lets see the HOW - Second edition?](#lets-see-the-how---second-edition?)
     + [Now comes the good part](#now-comes-the-good-part)
-- [Finding the Flags >>](#finding-the-flags->>)
+- [Finding the Flags >>](#finding-the-flags)
 - [Summary](#summary)
 <br>
 <hr>
 
-## General info >>
+## General info
 This machine is a beginner friendly and simple Linux machine.
 The goal of this machine is to gain a root shell i.e. (root@loclahost:~#)
 Then obtain a flag under /root.
@@ -23,7 +23,7 @@ Then obtain a flag under /root.
 The entire walkthru will be very personal languaged so dont be afraid to read it. THX.
 <br>	
 
-## Technologies used >>
+## Technologies used
 Machine got pwned by no usage of softwares:
 * basic linux GRUB cmds
 * init script mod
@@ -31,7 +31,7 @@ Machine got pwned by no usage of softwares:
 * and some critical but logical thinking 
 <br>	
 
-## Walkthru >>
+## Walkthru
 For beginning I wanted something challenging also since I just started ethical hacking going medium would have been insaine :)
 
 Now for the first time go download the `OVA` from VulnHub and import it to your VM_Box.
@@ -188,7 +188,7 @@ Lets open up the terminal and enter `whoami` now <strong>SUCCESS</strong> we are
 <img href="./image/08.jpg"></img>
 <br>
 
-## Finding the Flags >>
+## Finding the Flags
 
 So now that we basicaly only have to dig around the files we have to do two things.
 
