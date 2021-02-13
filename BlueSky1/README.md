@@ -82,7 +82,7 @@ Ok now you have the chance to `drop a root shell` in linux boot.
 
 If you hold `Shift` while the initial boot sequence is on then you will be enterd to the `GNU GRUB Menu`
 
-<img href="./image/02.jpg"></img>
+<img src="https://github.com/norbert-dev/VulnHUB/blob/main/BlueSky1/images/02.png">
 
 Here you can choose `Advanced options for Ubuntu`
 Then select the second option from the top. This is the `recovery mode`
@@ -93,15 +93,15 @@ Then select `root` - `Drop to root shell prompt`
 You can find all the steps documented by images down below.
 If needed feel free to follow them.
 
-<img href="./image/02.1.jpg"></img>
+<img src="https://github.com/norbert-dev/VulnHUB/blob/main/BlueSky1/images/02.1.png">
 
-<img href="./image/02.2.jpg"></img>
+<img src="https://github.com/norbert-dev/VulnHUB/blob/main/BlueSky1/images/02.2.png">
 
 And now we get to some dead end. 
 As you can see here on the following picture
 the `root` drop shell option is `psw` locked.
 
-<img href="./image/02.3.jpg"></img>
+<img src="https://github.com/norbert-dev/VulnHUB/blob/main/BlueSky1/images/02.3.png">
 
 <strong>FAILED! We gonna need a new plan.</strong> 
 <br>
@@ -110,7 +110,7 @@ the `root` drop shell option is `psw` locked.
 If you hold `Shift` while the initial boot sequence is on 
 then you will be enterd to the `GNU GRUB Menu` but you already know this right?
 
-<img href="./image/02.jpg">
+<img src="https://github.com/norbert-dev/VulnHUB/blob/main/BlueSky1/images/02.png">
 
 Let's see something new.
 Here you have the option to edit commands before booting by pressing `e`.
@@ -134,7 +134,7 @@ Here find the higlighted fields. This is the very first image that boots in.
 Sofar we entered GNU GRUB - `CHECK`
 and gainded access to the script editor - `CHECK`
 
-<img href="./image/03.jpg"></img>
+<img src="https://github.com/norbert-dev/VulnHUB/blob/main/BlueSky1/images/03.png">
 
 Now as highlighted we need to locate the first line which says `linux`.
 
@@ -150,7 +150,7 @@ If prompted just choose the very first possible Ubuntu in the list.
 
 So now we changed file system state to `read-write` - `CHECKED`
 
-<img href="./image/04.jpg"></img>
+<img src="https://github.com/norbert-dev/VulnHUB/blob/main/BlueSky1/images/04.png">
 <br>
 
 #### Now comes the good part
@@ -162,14 +162,14 @@ So once we rebooted we will be prompted into guess where?
 As you can see in the image following we have 
 basicaly full access since there is no job controll in this session.
 
-<img href="./image/05.jpg"></img>
+<img src="https://github.com/norbert-dev/VulnHUB/blob/main/BlueSky1/images/05.png">
 
 Easy enough from here. 
 First enter `passwd root`
 This will allowe you to change `$root` user password.
 Change it to whatever you like. I typed `hacked` as you can see in my comment line on the following pic.
 
-<img href="./image/06.jpg"></img>
+<img src="https://github.com/norbert-dev/VulnHUB/blob/main/BlueSky1/images/06.png">
 
 Now once we are done here lets restart the entire boot sequence and test our theory out.
 
@@ -177,7 +177,7 @@ Type in the bash command line the following `exec /sbin/init`
 This will restart the boot sequence.
 This time let it run thru.
 
-<img href="./image/07.jpg"></img>
+<img src="https://github.com/norbert-dev/VulnHUB/blob/main/BlueSky1/images/07.png">
 
 As you can see just enter `root` for login and the `psw` you enterd during the UNIX mod.
 
@@ -185,7 +185,7 @@ Now once we loged in ets check with the `whoami` command who we are inside the s
 
 Lets open up the terminal and enter `whoami` now <strong>SUCCESS</strong> we are `root`.
 
-<img href="./image/08.jpg"></img>
+<img src="https://github.com/norbert-dev/VulnHUB/blob/main/BlueSky1/images/08.png">
 <br>
 
 ## Finding the Flags
@@ -204,7 +204,7 @@ In terminal `ls` the folder then `cat user.txt` and you will see this message.
 
 " Try your best, you have passed the first challange, and the last one is for you, root me!"
 
-<img href="./image/09.jpg"></img>
+<img src="https://github.com/norbert-dev/VulnHUB/blob/main/BlueSky1/images/09.png">
 
 Honestly! We are already root :) Kaching. So lets finish this easy.
 
@@ -213,7 +213,7 @@ Here I have found a nice and literaly the only one file which shouted at me that
 
 Yes its called `root.txt` funny enough.
 
-<img href="./image/10.jpg"></img>
+<img src="https://github.com/norbert-dev/VulnHUB/blob/main/BlueSky1/images/10.png">
 
 Once it has been opend we are pleased to be greated by the `SunCSR Team`
 
