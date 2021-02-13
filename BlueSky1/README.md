@@ -8,7 +8,7 @@
     + [Move on then!](#move-on-then!)
   * [Popping the SHELL](#popping-the-shell) 
     + [Lets see the HOW first?](#lets-see-the-how-first?) 
-    + [Lets see the HOW - Second edition?](#lets-see-the-how---second-edition?)
+  * [Lets see the HOW - Second edition?](#lets-see-the-how---second-edition?)
     + [Now comes the good part](#now-comes-the-good-part)
 - [Finding the Flags >>](#finding-the-flags)
 - [Summary](#summary)
@@ -106,7 +106,7 @@ the `root` drop shell option is `psw` locked.
 <strong>FAILED! We gonna need a new plan.</strong> 
 <br>
 
-#### Lets see the HOW - Second edition?
+### Lets see the HOW - Second edition?
 If you hold `Shift` while the initial boot sequence is on 
 then you will be enterd to the `GNU GRUB Menu` but you already know this right?
 
