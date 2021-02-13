@@ -44,6 +44,8 @@ For beginning I wanted something challenging also since I just started ethical h
 Now for the first time go download the `OVA` from VulnHub and import it to your VM_Box.
 <br>
 
+<hr>
+
 ### Initial startup
 At the very first startup I have met with this image.
 
