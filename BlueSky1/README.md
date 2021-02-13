@@ -79,6 +79,8 @@ I did not see any reason to need those and make my life complicated.
 And oh boy I was SOOO right. Bear with me you will see.
 <br>
 
+<hr>
+
 ### Popping the SHELL
 So how do I get a root access without any major complication?
 
@@ -114,6 +116,8 @@ the `root` drop shell option is `psw` locked.
 
 <strong>FAILED! We gonna need a new plan.</strong> 
 <br>
+
+<hr>
 
 ### Lets see the HOW Second edition?
 If you hold `Shift` while the initial boot sequence is on 
@@ -196,6 +200,8 @@ Lets open up the terminal and enter `whoami` now <strong>SUCCESS</strong> we are
 
 <img src="https://github.com/norbert-dev/VulnHUB/blob/main/BlueSky1/images/08.png">
 <br>
+
+<hr>
 
 ## Finding the Flags
 
