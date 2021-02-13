@@ -1,4 +1,4 @@
-<img src="https://github.com/norbert-dev/VulnHUB/blob/main/BlueSky1/images/vhlogo.png" height="300px" width="300px">
+<img src="https://github.com/norbert-dev/VulnHUB/blob/main/BlueSky1/images/vhlogo.png" height="300px" width="500px" position=center>
 <br>
 <hr>
 
