@@ -218,12 +218,11 @@ Yes its called `root.txt` funny enough.
 Once it has been opend we are pleased to be greated by the `SunCSR Team`
 
 The flag is the following text:
-    """
-    Amazing, goodjob you!
-    Thank you for going here
+```
+Amazing, goodjob you!
+Thank you for going here
 
-    SunSCR Team
-    """
+SunSCR Team```
 
 <br>
 <hr>
